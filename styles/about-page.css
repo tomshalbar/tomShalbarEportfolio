@@ -1,0 +1,78 @@
+body {
+    height: 1600px;
+}
+.my-story-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.my-family-pic {
+    height: 480px;
+    width: 320px;
+    object-fit: cover;
+    border: 1px solid #1d365a;
+    border-radius: 3px;
+}
+
+.my-story-right {
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-story-header {
+    margin-top: 30px;
+    font-size: 100px;
+    color: #103c03;
+    font-family: "Crimson Text";
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.my-story-quote {
+    margin-top: -6px;
+    color: #1a6506;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.my-story-content {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "Crimson Text";
+    width: 480px;
+}
+
+
+.seperator {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.list-head {
+    font-family: "Crimson Text";
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.list-content {
+    font-family: "Crimson Text";
+}
+
+.hobbies-list {
+    margin-right: 180px;
+}

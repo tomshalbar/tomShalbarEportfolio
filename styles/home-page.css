@@ -1,0 +1,100 @@
+body {
+  padding-top: 200px;
+  height: 1000px;
+}
+
+.option-bar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #445361;
+}
+
+.bar-left-section {
+  width: 1000px;
+}
+
+button {
+  height: 50px;
+  font-size: 24px;
+  font-family: Montserrat, SansSerif;
+  background: none;
+  border-style: none;
+}
+.tom-button {
+  margin-left: 300px;
+}
+
+.right-section {
+  margin-left: 50px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: opacity 200ms;
+  padding-right: 300px;
+}
+
+button:hover {
+  opacity: 60%;
+}
+
+button:active {
+  opacity: 40%;
+}
+
+.center-image {
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center;
+  margin-top: 50px;
+  height: 500px;
+  width: 100%;
+  z-index: 1;
+}
+
+.headshot {
+  position: absolute;
+  height: 450px;
+  top: 240px;
+  left: 720px;
+}
+.about-text {
+  width: 1000px;
+  position: absolute;
+  left: 420px;
+  z-index: 2;
+  margin-top: -130px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 65px;
+}
+
+.header-text {
+  margin-top: 15px;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.small-welcome-text {
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.UF-pic {
+  height: 65px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
