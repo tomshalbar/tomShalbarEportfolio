@@ -27,7 +27,7 @@ body {
 
 button {
   height: 50px;
-  font-size: 1.4vw;
+  font-size: 1.5em;
   font-family: Montserrat, SansSerif;
   background: none;
   border-style: none;
@@ -37,7 +37,8 @@ button {
 }
 
 .right-section {
-  width: 38%;
+  width: 35%;
+  margin-right: 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -151,11 +152,9 @@ button:active {
   left: 20px;
 }
 
-@media (max-width: 800px) {
-  .typewriter-header {
-    font-size: 25px;
+/* @media (max-width: 800px) {
+  button {
+    font-size: 1em;
+    background-color: red;
   }
-  .header-text {
-    font-size: 25px;
-  }
-}
+} */

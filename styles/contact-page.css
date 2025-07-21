@@ -1,8 +1,11 @@
 .contact-me-header {
-  font-size: 40px;
-  font-weight: bold;
   margin-top: 100px;
   text-align: center;
+  font-size: 60px;
+  color: #103c03;
+  font-family: "Crimson Text";
+  font-style: italic;
+  margin-bottom: 0px;
 }
 
 .contact-info {
