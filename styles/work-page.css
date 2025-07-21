@@ -1,24 +1,95 @@
-.reflection-div {
-  margin-top: 120px;
+body {
+  height: 1600px;
+}
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.project-title {
+  font-size: 50px;
+  width: 250px;
+  padding-right: 50px;
+  border-right: solid;
+  border-width: 5px;
+  line-height: 500px;
+  font-family: "Crimson Text";
+  font-weight: 600;
+  text-align: right;
+}
+
+.project-content {
+  font-size: 28px;
+  font-family: "Crimson Text";
+  width: 500px;
+  margin-left: 80px;
+}
+
+.project-video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-left: 80px;
+  margin-left: 80px;
+  border: 2px solid black;
 }
 
-.reflection-header {
+.graphic-header {
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+.my-family-pic {
+  height: 480px;
+  width: 320px;
+  object-fit: cover;
+  border: 1px solid #1d365a;
+  border-radius: 3px;
+  margin-top: 50px;
+}
+
+.my-story-right {
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-story-header {
   margin-top: 30px;
-  font-size: 50px;
+  font-size: 100px;
   color: #103c03;
   font-family: "Crimson Text";
   font-style: italic;
   margin-bottom: 0px;
 }
 
-.reflection-content {
+.my-story-content {
   margin-top: 50px;
-  font-size: 18px;
+  font-size: 23px;
   font-family: "Crimson Text";
-  width: 550px;
-  line-height: 30px;
+  width: 480px;
+}
+
+.seperator {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin-left: 40px;
 }

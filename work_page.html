@@ -9,11 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat&display=swap"
       rel="stylesheet"
     />
   </head>
-  Reflection
+
   <body>
     <div class="option-bar">
       <div class="bar-left-section">
@@ -34,28 +38,79 @@
         <a href="contact_page.html">
           <button class="contact-button">Contact</button>
         </a>
+        <a href="blog_page.html">
+          <button class="contact-button">Reflections</button>
+        </a>
       </div>
     </div>
-    <div class="reflection-div">
-      <p class="reflection-header">Reflection-First year at UF</p>
-      <p class="reflection-content">
-        Reflecting on my first year at the University of Florida, I'm grateful
-        for how much I've grown both academically and personally. As a computer
-        science major, I was challenged in ways that pushed me to develop
-        stronger problem-solving and time management skills. Courses introduced
-        me to the foundations of programming and algorithms, setting a solid
-        base for the future. Beyond the classroom, being involved in the SEC
-        (Software Engineering Club) and OS (Open source) Club gave me a chance
-        to connect with peers who share my interests. Through projects,
-        workshops, and guest talks, I gained hands-on experience and insight
-        into industry practices that go beyond textbook learning. These
-        communities helped me stay motivated and excited about the field.
-        Looking back, I'm proud of what I've accomplished and even more excited
-        for what's ahead. My first year at UF has set a strong foundation for
-        both my education and career.
-      </p>
-    </div>
 
-    <img class="UF-pic" src="images/gator_logo.png" />
+    <div class="projects-div">
+      <div class="project">
+        <p class="project-title">Waik</p>
+        <p class="project-content">
+          Waik is a trading tool that gives traders the power to backtest unique
+          strategies with full flexibility. It supports all indicators found in
+          TA-lib, as well as has features that allow users to add any cutsom
+          indicators they develop. <br /><br />
+          Waik especially excels in its ability to optimize strategies to
+          current market conditions. Using the power of Optuna, traders can run
+          their strategy through Waik's optimization tool, which will output the
+          most profitable combination of strategy parameters in the period
+          backtested.
+        </p>
+        <div class="project-video">
+          <p class="graphic-header">Optimized SMA-crossover strategy</p>
+          <video controls width="600" height="360">
+            <source
+              src="images/Screencast from 2025-07-20 19-53-24.webm"
+              type="video/webm"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="seperator">
+        <p class="dot"></p>
+        <p class="dot"></p>
+        <p class="dot"></p>
+      </div>
+      <div class="project">
+        <p class="project-title">Micrograd</p>
+        <p class="project-content">
+          Based on Andrej Karpathy's Micrograd lecture, this project taught me
+          the underlying process of AI neural networks. It replicates the core
+          features of pytorch, enabling the construction of different neural
+          nets. This project deppened my understanding of the backpropagation
+          and forward processes, as well as the gradient descent algorithm.
+          Through this implementation, I gained hands-on experience with how
+          artificial neurons process inputs, compute gradients, and update
+          parameters to minimize a loss function.
+        </p>
+        <div class="project-video">
+          <p class="graphic-header">Part of a 41 parameters Neural net</p>
+          <img width="600px" src="images/micrograd.png" />
+        </div>
+      </div>
+      <div class="seperator">
+        <p class="dot"></p>
+        <p class="dot"></p>
+        <p class="dot"></p>
+      </div>
+      <div class="project">
+        <p class="project-title">UFence AI</p>
+        <p class="project-content">
+          UfDefense is a widely accessible platform, that allows users to stay alert under 
+          real time life threating conditions. Powered by IBM's Watson model, it compiles
+          news about ongoing or recent natural disasters, filters the news by location and 
+          urgency, and advises users about necessary precautions to take before, while, and 
+          after a disaster hits. 
+        </p>
+        <div class="project-video">
+          <p class="graphic-header">The Ufence Website</p>
+          <img width="600px" src="images/UFence.png" />
+        </div>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
