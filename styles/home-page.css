@@ -6,6 +6,7 @@ body {
 .option-bar {
   position: fixed;
   top: 0;
+  width: 100%;
   background-color: white;
   padding-top: 150px;
   padding-bottom: 56px;
@@ -16,31 +17,31 @@ body {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #445361;
+  text-align: center;
 }
 
 .bar-left-section {
-  width: 1000px;
+  width: 50%;
+  align-content: center;
 }
 
 button {
   height: 50px;
-  font-size: 24px;
+  font-size: 1.4vw;
   font-family: Montserrat, SansSerif;
   background: none;
   border-style: none;
 }
 .tom-button {
-  margin-left: 300px;
+  width: 10vw;
 }
 
 .right-section {
-  margin-left: 0px;
-  width: 650px;
+  width: 38%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: opacity 200ms;
-  padding-right: 300px;
 }
 
 button:hover {
@@ -51,6 +52,10 @@ button:active {
   opacity: 40%;
 }
 
+.content-wrapper {
+  position: relative;
+  width: 100%;
+}
 .center-image {
   object-fit: cover;
   overflow: hidden;
@@ -63,16 +68,17 @@ button:active {
 
 .headshot {
   position: absolute;
-  height: 450px;
-  top: 240px;
-  left: 720px;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
 }
+
 .about-text {
-  width: 1000px;
+  width: 50%;
   position: absolute;
-  left: 420px;
+  left: 25%;
   z-index: 2;
-  margin-top: -130px;
+  margin-top: -5%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -88,7 +94,7 @@ button:active {
 .typewriter-header {
   margin-top: 15px;
   font-family: Montserrat;
-  font-size: 60px;
+  font-size: 3vw;
   font-weight: 500;
   margin-bottom: 0px;
 
@@ -115,7 +121,8 @@ button:active {
 .header-text {
   margin-top: 15px;
   font-family: Montserrat;
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: 3vw;
   font-weight: 500;
   margin-bottom: 0px;
 
@@ -131,21 +138,24 @@ button:active {
 }
 
 .small-welcome-text span:nth-of-type(odd) {
-  font-family: Montserrat;
-  font-size: 20px;
   color: rgba(0, 33, 165);
-  font-weight: 900;
 }
 .small-welcome-text span:nth-of-type(even) {
-  font-family: Montserrat;
-  font-size: 20px;
   color: rgba(255, 70, 22);
-  font-weight: 900;
 }
 
 .UF-pic {
-  height: 65px;
+  width: 7%;
   position: fixed;
   bottom: 20px;
   left: 20px;
+}
+
+@media (max-width: 800px) {
+  .typewriter-header {
+    font-size: 25px;
+  }
+  .header-text {
+    font-size: 25px;
+  }
 }
