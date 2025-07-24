@@ -37,8 +37,9 @@ button {
 }
 
 .right-section {
-  width: 35%;
-  margin-right: 15%;
+  width: 30%;
+  margin-right: 10%;
+  margin-left: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -151,8 +152,8 @@ button:active {
   bottom: 20px;
   left: 20px;
 }
-
-/* @media (max-width: 800px) {
+/* 
+@media (max-width: 800px) {
   button {
     font-size: 1em;
     background-color: red;
